@@ -1,0 +1,14 @@
+E:\Apuntador\ApuntadorDesktop\ApuntadorDesktop\obj\x86\Debug\ApuntadorDesktop.frmHome.resources
+E:\Apuntador\ApuntadorDesktop\ApuntadorDesktop\obj\x86\Debug\ApuntadorDesktop.Properties.Resources.resources
+E:\Apuntador\ApuntadorDesktop\ApuntadorDesktop\obj\x86\Debug\ApuntadorDesktop.csproj.GenerateResource.Cache
+E:\Apuntador\ApuntadorDesktop\ApuntadorDesktop\bin\Debug\ApuntadorDesktop.exe
+E:\Apuntador\ApuntadorDesktop\ApuntadorDesktop\bin\Debug\ApuntadorDesktop.pdb
+E:\Apuntador\ApuntadorDesktop\ApuntadorDesktop\bin\Debug\DevComponents.DotNetBar2.dll
+E:\Apuntador\ApuntadorDesktop\ApuntadorDesktop\bin\Debug\DevComponents.DotNetBar2.xml
+E:\Apuntador\ApuntadorDesktop\ApuntadorDesktop\obj\x86\Debug\ApuntadorDesktop.exe
+E:\Apuntador\ApuntadorDesktop\ApuntadorDesktop\obj\x86\Debug\ApuntadorDesktop.pdb
+E:\Apuntador\ApuntadorDesktop\ApuntadorDesktop\obj\x86\Debug\ApuntadorDesktop.FrmApunte.resources
+E:\Apuntador\ApuntadorDesktop\ApuntadorDesktop\obj\x86\Debug\ApuntadorDesktop.TarjetaApunte.resources
+E:\Apuntador\ApuntadorDesktop\ApuntadorDesktop\obj\x86\Debug\ApuntadorDesktop.csprojResolveAssemblyReference.cache
+C:\Users\MaximilianoE\Documents\GitHub\PegateResumen\ApuntadorDesktop\ApuntadorDesktop\obj\x86\Debug\ApuntadorDesktop.exe
+C:\Users\MaximilianoE\Documents\GitHub\PegateResumen\ApuntadorDesktop\ApuntadorDesktop\obj\x86\Debug\ApuntadorDesktop.pdb
