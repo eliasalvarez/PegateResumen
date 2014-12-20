@@ -8,7 +8,7 @@ mongoose.connect('mongodb://localhost:27017/angular-todo');
 //configuracioón
 app.configure(function() {
     //Localización de los ficheros estáticos
-    app.use(express.static(_dirname + '/public'));
+    app.use(express.static(__dirname + '/public'));
     //muestra un log de todos los request en la consola
     app.use(express.logger('dev'));
     //permite cambiar el html con el método POST
