@@ -4,7 +4,10 @@
 	"description": "Permitiendote resumir un pegado",
 	"main":"server.js",
  	"dependencies": {
-        "express": "3.x",
- 		"mongoose": "3.9.7"
+      "express"         : "3.x",
+ 		"mongoose"        : "3.9.7",
+      "morgan"          : "~1.2.2",
+      "body-parser"     : "~1.5.2",
+      "method-override" : "~2.1.2"
  	}
 }
