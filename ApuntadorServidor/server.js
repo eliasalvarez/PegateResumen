@@ -60,7 +60,7 @@ app.post('/api/todos', function(req, res) {
 });
 
 // DELETE un TODO específico y devuelve todos tras borrarlo.
-app.delete('/api/todos/:todo', function(req, res) {
+app.delete('/api/todos/:todo._id', function(req, res) {
     Todo.remove({
         _id: req.params.todo
     }, function(err, todo) {
