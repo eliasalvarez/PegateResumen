@@ -21,7 +21,7 @@ var todo = mongoose.model('todo', { text: String });
 
 //Rutas de nuestro API
 //GET de todos los TODOs
-app.get('/api/todos', funtion(req, res) {
+app.get('/api/todos', function(req, res) {
         Todo.find(function(err, todos) {
             if(err){
                 res.send(err);
@@ -35,12 +35,12 @@ app.get('/api/todos', funtion(req, res) {
 app.post('/api/todos', function(req, res) {
     Todo.create({
         text: req.body.text,
-        done: false;
+        done: false
     }, function(err, todo) {
         if(err) {
             res.send(err);
         }
-        
+
         Todo.find(function(err, todos){
             if(err){
                 res.send(err);
@@ -59,7 +59,7 @@ app.delete('/api/todos/:todo', function(req,res) {
         if(err) {
             res.send(err);
         }
-        
+
         Todo.find(function(err, todos) {
             if(err){
                 res.send(err);
@@ -68,8 +68,6 @@ app.delete('/api/todos/:todo', function(req,res) {
         });
     });
 });
-
-
 //carga una vista html simple donde irá nuestra Single App Page
 //Angular manejará el Frontend
 app.get('*', function(req,res) {
@@ -77,6 +75,6 @@ app.get('*', function(req,res) {
 });
 
 //escucha en el puerto 8080 y corre el server
-app.listen(8080, function(){ 
-    consolle.log('App listening on port 8080');
+app.listen(8080, function(){
+    console.log('App listening on port 8080');
 });
