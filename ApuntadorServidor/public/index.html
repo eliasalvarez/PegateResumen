@@ -1,24 +1,27 @@
 <!DOCTYPE HTML>
 <html lang="en" ng-app="angularTodo">
     <head>
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Angular TODO app</title>
         <link rel="stylesheet" href="/frameworks/bootstrap.min.css">
+
     </head>
     <body ng-controller="mainController">
         <div class="container">
             <!--Cabecera-->
             <div class="jumbotron text-center">
-                <h1>Angular TODO List <span class="label label-info">{{ todos.length }}</span></h1>
+                <h1>Angular TODO List
+                    <span class="label label-info">{{ todos.length }}</span>
+                </h1>
             </div>
             <!--Lista de Todos-->
             <div id="todo-list" class="row">
                 <div class="col-sm-4 col-sm-offset-4">
                     <div class="checkbox" ng-repeat="todo in todos">
                         <label>
-                            <input type="checkbox" ng-click="deleteTodo(todo._id)">
-                                {{ todo.text }}
+                            <input type="checkbox" ng-click="deleteTodo(todo._id)"> {{ todo.text }}
                         </label>
                     </div>
                 </div>
@@ -38,7 +41,7 @@
             </div>
         </div>
         <script src="/frameworks/jquery.min.js"></script>
-        <script src="/frameworks/angular.min.js"></script>
+        <script src="/frameworks/angular.js"></script>
         <script src="main.js"></script>
     </body>
 </html>

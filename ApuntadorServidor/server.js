@@ -5,7 +5,15 @@ var app         = express();
 var mongoose    = require('mongoose');
 
 // Conexión con la base de datos
-mongoose.connect('mongodb://localhost:27017/angular-todo');
+var mongoUrl = 'mongodb://localhost:27017/angular-todo';
+var connectWithRetry = function() {
+    return mongoose.connect(mongoUrl,{server: {auto_reconnect: true}}, function(err){
+        if(err){
+            console.error('Failed to connect to mongo on startup - retying in 5 sec', err);
+        }
+    });
+};
+
 
 
 // Configuración
@@ -79,7 +87,6 @@ app.get('*', function(req, res) {
 //Modelo de datos
 var todo = mongoose.model('todo', {
     text: String,
-    titulo: String
 });
 
 //escucha en el puerto 8080 y corre el server
